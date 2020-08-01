@@ -1,5 +1,12 @@
 .body {
-    background-color: black;
+    background-color: blueviolet;
     text-align: center;
     margin-top: auto;
+}
+
+p {
+    text-size-adjust: 50px;
+    text-decoration-color: blueviolet;
+    font-size: larger;
+    font-family: cursive;
 }
