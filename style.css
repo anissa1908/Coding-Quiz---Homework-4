@@ -1,10 +1,19 @@
+body, html {
+    height: 100%;
+}
 
-body {
+.bg {
+    /* Image used as background */
    background-image: url('https://www.hoopswallpapers.com/wallpapers/2017/kobe-jersey-retirement-wallpaper-preview.jpg');
-   padding: 200px 100px;
-   margin: 100px;
 
+   /* Full height */
+
+   height: 100%;
+
+   /* Center and scale background image */
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 p {
