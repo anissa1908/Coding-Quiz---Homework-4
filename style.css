@@ -16,16 +16,10 @@ body, html {
     background-size: cover;
 }
 
-.container {
-
-}
-
-
 button {
     background-color: yellow;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-size-adjust: auto;
     text-decoration-color: rgb(80, 17, 80);
-
 }
