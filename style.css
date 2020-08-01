@@ -1,4 +1,5 @@
-.body {
+
+body {
     background-color: blueviolet;
     text-align: center;
     margin-top: auto;
@@ -9,4 +10,13 @@ p {
     text-decoration-color: blueviolet;
     font-size: larger;
     font-family: cursive;
+}
+
+button {
+    background-color: yellow;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-size-adjust: auto;
+    text-decoration-color: rgb(80, 17, 80);
+
 }
