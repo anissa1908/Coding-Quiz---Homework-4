@@ -16,12 +16,10 @@ body, html {
     background-size: cover;
 }
 
-p {
-    text-size-adjust: 50px;
-    text-decoration-color: blueviolet;
-    font-size: larger;
-    font-family: cursive;
+.container {
+
 }
+
 
 button {
     background-color: yellow;
