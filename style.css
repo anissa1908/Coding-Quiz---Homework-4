@@ -46,10 +46,24 @@ body, html {
   }
 
   .container { 
-        padding-top: 50px;
-        padding-right: 800px;
-        padding-left: 800px;
+        padding-top: 40px;
+        padding-right: 100px;
+        padding-left: 100px;
+        padding-bottom: 40px;
         background-color: rebeccapurple;
       }
 
+  #button {
+      size: 50px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-style: oblique;
+      font-stretch: expanded;
+      text-emphasis-color: purple;
   }
+
+  .imgButton{
+    text-align:center;
+    align-items: bottom;
+    width: 100%;
+}
+
