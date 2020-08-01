@@ -1,8 +1,10 @@
 
 body {
-    background-color: blueviolet;
+    background-image: url('https://www.hoopswallpapers.com/wallpapers/2017/kobe-jersey-retirement-wallpaper-preview.jpg');
     text-align: center;
     margin-top: auto;
+
+    background-repeat: no-repeat;
 }
 
 p {
