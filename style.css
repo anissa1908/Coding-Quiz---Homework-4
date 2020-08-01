@@ -1,8 +1,8 @@
 
 body {
-    background-image: url('https://www.hoopswallpapers.com/wallpapers/2017/kobe-jersey-retirement-wallpaper-preview.jpg');
-    text-align: center;
-    margin-top: auto;
+   background-image: url('https://www.hoopswallpapers.com/wallpapers/2017/kobe-jersey-retirement-wallpaper-preview.jpg');
+   padding: 200px 100px;
+   margin: 100px;
 
     background-repeat: no-repeat;
 }
