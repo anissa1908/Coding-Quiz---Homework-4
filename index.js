@@ -1,39 +1,58 @@
-// GIVEN I am taking a code quiz
-
 // show quiz immediately
-buildQuiz();
+function buildQuiz(quizQuestions, quizContainer, resultsContainer, submitButton);
+
+// functions
+function startQuiz();
+function nextQuestion();
+function showResults() {}
+
+// store references to variables for buttons
+var startButton = document.getElementById('start')
+var submitButton = document.getElementById('submit');
+var nextButton = document.getElementById('next');
+
+// variables that make up quiz
+var x = "";
+const quizQuestions = document.getElementById('questions');
+const quizContainer = document.getElementById('quiz');
+var rightAnswer = document.getElementById('correct');
+var wrongAnswer = document.getElementById('incorrect');
+var resultsContainer = document.getElementById('results');
+
+var myQuestions = [ ];
+
+
+// Event listeners
+startButton.addEventListener('click', startQuiz);
+nextButton.addEventListener('click', nextQuestion);
+submitButton.addEventListener('click', showResults);
 
 // When I click the start button
 var startButton = $('.start').startButton
 
 // THEN a timer starts and I am presented with a question
 
+
+
 //Store the total number of questions
-var totalQuestions = $('.questions').size(8);
+var totalQuestions = $('.quizQuestions').size(8);
 
 //Set the current question to display to 1
-var currentQuestion = 0;
+var currentQuestion = 1;
 
-//Store the selector in a variable.
+// User selects answer to question and answer is stored in a variable
+
 $questions = $('.questions');
 
-//Hide all the questions
-$questions.hide();
+// Conditional statement for each question whether the answer is correct or incorrect.
 
-//Show the first question
-$($questions.get(currentQuestion)).fadeIn();
 
 //attach a click listener to the HTML element with the id of 'next'
 var nextButton = document.querySelector("#next");
 $('#next').click(function () {
 
-     //fade out the current question,
-     //putting a function inside of fadeOut calls that function 
-     //immediately after fadeOut is completed, 
-     //this is for a smoother transition animation
-     $($questions.get(currentQuestion)).fadeOut(function () {
-
-        //increment the current question by one
+    
+//increment the current question by one
         currentQuestion = currentQuestion + 1;
 
         //if there are no further questions to answer
@@ -76,7 +95,7 @@ submitButton.onclick('click', showResults)
 
 
 
-// THEN a timer starts and I am presented with a question
+
 
 
 
