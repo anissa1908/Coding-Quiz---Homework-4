@@ -52,6 +52,82 @@ $('#next').click(function () {
 
 });
 
+const myQuestions = [
+    {
+        question: "What year did Kobe get drafted to the NBA?",
+        A. 1998
+        B. 1991
+        C. 1996
+        D. 1994
+    },
+  
+
+{
+        question: "What team drafted Kobe in the NBA Draft?",
+        A. Los Angeles Lakers
+        B. Charlotte Hornets
+        C. Chicago Bulls
+        D. Portland Trailblazers
+}
+
+{
+        question: "What nickname is Kobe know by?"
+        A. Vino
+        B. KB 24
+        C. Black Mamba
+        D. All Of The Above
+}
+
+{
+        question: "How many points did Kobe score in his highest scoring game?"
+        A. 90
+        B. 81
+        C. 60
+        D. 48
+}
+
+{
+        question: "What film did Kobew win an Academy Award for?"
+        A. Kobe Doin Work
+        B. The Last Dance
+        C. Dear BAsketball
+        D. The Wizinard Series
+}
+
+{
+        question: "What model did Kobe collaborate with on a rap single?"
+        A. Tyra Banks
+        B. Queen Latifah
+        C. Naomi Campbell
+        D. Veronica Webb
+}
+
+{
+        question: "How many NBA Championship rings did Kobe win in his career?"
+        A. Five
+        B. Four
+        C. Seven
+        D. Six
+}
+
+{
+        question: "How many siblings does Kobe have?"
+        A. One
+        B. Four
+        C. Two
+        D. Zero
+}
+
+{
+        question: "What NBA player lived with Kobe and his family?"
+        A. Shaq
+        B. Penny Hardaway
+        C. Allen Iverson
+        D. Tracy McGrady
+}
+
+
+
 
 
 
