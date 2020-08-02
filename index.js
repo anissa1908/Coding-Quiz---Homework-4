@@ -52,6 +52,7 @@ $('#next').click(function () {
 
 });
 
+// used object literals to represent each question in the quiz and array to hold all of the questions
 const myQuestions = [
     {
         question: "What year did Kobe get drafted to the NBA?",
