@@ -15,10 +15,10 @@
         height: 100%;
 
 }
-
         .bg {
     /* Image used as background */
         background-image: url('https://www.hoopswallpapers.com/wallpapers/2017/kobe-jersey-retirement-wallpaper-preview.jpg');
+       
 
    /* Full height */
 
@@ -33,6 +33,7 @@
     .container {
   position: relative;
   width: 50%;
+  max-width: 400px;
 }
 
 .image {
@@ -91,7 +92,12 @@
 
 <!-- Enter first question in the quiz -->
 
-        <section>
+        <div class="quiz container">
+            <div id ="quiz"></div>
+            </div>
+            <button id="next">Next Question</button>
+            <button id="submit">Submit Quiz</button>
+            <div id="results"></div>
             <h1>
                 <br>
                 <a href="https://fontmeme.com/the-vast-of-night-font/"><img src="https://fontmeme.com/permalink/200802/c1966b3b2e2186674d6c932c66b0ed46.png" alt="the-vast-of-night-font" border="0" text="center"></a>
@@ -120,8 +126,8 @@
                           <td>
                             <div class="imgContainer">
                                 <div>               
-                                    <div id="next">
-                                        <button value="Next">Next</button>
+                                    <div class="next">
+                                        <button type="button" class="btn btn-secondary btn-lg btn-block">Next</button>
                                     </div>
                              </div>
                           </td>
@@ -133,7 +139,7 @@
                         
         </section>
     
-     
+     <!--Enter the second question of the quiz  -->
 
 
 </body>

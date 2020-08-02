@@ -55,10 +55,8 @@ body, html {
 
   #button {
       size: 50px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      font-style: oblique;
-      font-stretch: expanded;
-      text-emphasis-color: purple;
+      background-color: purple;
+     
   }
 
   .imgButton{

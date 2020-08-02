@@ -1,13 +1,18 @@
 // GIVEN I am taking a code quiz
 
+
+// When I click the start button
+var startButton = $('.start').startButton
+
+// THEN a timer starts and I am presented with a question
+
 //Store the total number of questions
-var totalQuestions = $('.questions').size();
+var totalQuestions = $('.questions').size(8);
 
 //Set the current question to display to 1
-var currentQuestion = 0;
+var currentQuestion = 1;
 
 //Store the selector in a variable.
-//It is good practice to prefix jQuery selector variables with a $
 $questions = $('.questions');
 
 //Hide all the questions
@@ -17,6 +22,7 @@ $questions.hide();
 $($questions.get(currentQuestion)).fadeIn();
 
 //attach a click listener to the HTML element with the id of 'next'
+var nextButton = document.querySelector("#next");
 $('#next').click(function () {
 
      //fade out the current question,
@@ -47,7 +53,7 @@ $('#next').click(function () {
 });
 
 
-// WHEN I click the start button
+
 
 
 
