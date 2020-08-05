@@ -9,6 +9,9 @@
     <!--Link to stylesheet and css-->
     <link rel="stylesheet" type="text/css" href="style.css" />
 
+      <!--link between HTML and css  -->
+      <link rel="index.html" href="style.css">
+
     <style>
         body, html {
 
@@ -70,56 +73,66 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.qDiv {
+    display: none;
+}
        
     </style>
-  
+  <!--Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
 </head>
 
 <body>
 
-    <!--Bootstrap CSS -->
+    <!-- Bootstrap CSS
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
+     -->
     <!-- JS query links -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     
-    <!--link between HTML and css  -->
-    <link rel="index.html" href="style.css">
+    <!-- link between HTML and css 
+    <link rel="index.html" href="style.css"> -->
+
+    <!-- Javascript link -->
+
+   
 
     <div class="bg"></div>
 
 <!-- Divs for  -->
-    <div>
-        <div id="quiz">
+    <!-- <div> -->
+        <!-- <div id="quiz"> -->
 
-    </div>
+    <!-- </div> -->
         
 <!-- Button set up -->
     <div>
             <br>
-                <button type="button" class="btn btn-primary btn-lg btn-block">Start Quiz</button>
+                <button type="button" id ="start" class="btn btn-primary btn-lg btn-block ">Start Quiz</button>
                      
     </div>
 
     <div>
-        <br>
-            <button type="button" class="btn btn-primary btn-lg btn-block">Next Question</button>
+    
+            <!-- <button type="button" class="btn btn-primary btn-lg btn-block">Next Question</button> -->
     </div>
             
         <h1>
             <br>
-                <a href="https://fontmeme.com/the-vast-of-night-font/"><img src="https://fontmeme.com/permalink/200802/6bb848a14319e952c40ecada6d596cbe.png" alt="the-vast-of-night-font" border="0"></a>
+                <img src="https://fontmeme.com/permalink/200802/6bb848a14319e952c40ecada6d596cbe.png" alt="the-vast-of-night-font">
             </h1>
             <br>
 
-        <h2>QUESTION 1</h2>
-        <script></script>
-            <section>
-
+        
+    
+            <section  class="qDiv" id="q1">
+                <h2>QUESTION 1</h2>
                 <div class="container">
-                    <img src="https://i.insider.com/5e3de110d9db1d581801b9a3?width=1100&format=jpeg&auto=webp" alt=height="100" width="100" padding="30px" alt="Kobe at the NBA Draft" class="image">
+                    <img src="https://i.insider.com/5e3de110d9db1d581801b9a3?width=1100&format=jpeg&auto=webp" alt height="100" width="100" padding="30px" alt="Kobe at the NBA Draft" class="image">
                         <div class="overlay">
                             <div class="text">What year was Kobe drafted into the NBA?</div>
                         <table>
@@ -129,10 +142,10 @@
                           <div class="imgContainer">
                                     <div>              
                                         <div class="imgButton">
-                                            <button type="button" class="btn btn-primary btn-lg btn-block">A. 1998</button>
-                                            <button type="button" class="btn btn-secondary btn-lg btn-block">B. 1991</button>
-                                            <button type="button" class="btn btn-secondary btn-lg btn-block">C. 1996</button>
-                                            <button type="button" class="btn btn-secondary btn-lg btn-block">D. 1994</button>
+                                            <button type="button" class="btn btn-primary btn-lg btn-block" style="background-color:gold;">A. 1998</button>
+                                            <button type="button" class="btn btn-secondary btn-lg btn-block" style="background-color:gold;">B. 1991</button>
+                                            <button type="button" class="btn btn-secondary btn-lg btn-block" style="background-color:gold;">C. 1996</button>
+                                            <button type="button" class="btn btn-secondary btn-lg btn-block" style="background-color:gold;">D. 1994</button>
                                     </div>
                                 </td>
                           <td>             
@@ -142,12 +155,12 @@
                         </table>
                     </style>              
                 </section>                  
-        </script>
+      
                 <br>
 
-                <h2>QUESTION 2</h2>
-            <section>
-
+               
+            <section class="qDiv" id="q2">
+ <h2>QUESTION 2</h2>
                 <div class="container">
                     <img src="https://s3-us-west-2.amazonaws.com/scorestream-team-profile-pictures/296724/20181011004634_408_mascotOrig.jpg" alt height="100" width="100" padding="30px" alt="NBA Draft logo" class="image">
                         <div class="overlay">
@@ -173,9 +186,9 @@
                            
                 </section> 
                   <br>   
-                <h2>QUESTION 3</h2>
-                <section>
-    
+               
+                <section class="qDiv" id="q3">
+     <h2>QUESTION 3</h2>
                     <div class="container">
                         <img src="https://www.bostonherald.com/wp-content/uploads/2020/02/kobe4.jpg?w=483" alt height="50" width="50" padding="10px" alt="Kobe dunk" class="image">
                             <div class="overlay">
@@ -201,9 +214,9 @@
                                
                     </section> 
                     <br>   
-                <h2>QUESTION 4</h2>
-                    <section>
-        
+                
+                    <section class="qDiv" id="q4">
+        <h2>QUESTION 4</h2>
                         <div class="container">
                             <img src="http://dublbmarketing.com/blog/wp-content/uploads/2014/12/Kobe-Bryant-Talks-About-The-Lakers-and-Nick-Young-In-Trash-Talking-funny-quotes-meme.jpg" alt height="100" width="100" padding="30px" alt="Kobe Nike Poster" class="image">
                                 <div class="overlay">
@@ -231,9 +244,9 @@
                         
             </section> 
             <br>   
-        <h2>QUESTION 5</h2>
-            <section>
-
+        
+            <section class="qDiv" id="q5">
+<h2>QUESTION 5</h2>
                 <div class="container">
                     <img src="https://img.promipool.com/www-promipool-de/image/upload/w_580,f_jpg,q_auto:eco/Remembering_Kobe_Bryant_His_Film_And_Television_Appearances_200130_gbf4wg7rtk" alt height="100" width="100" padding="30px" alt="Kobe at Oscars" class="image">
                         <div class="overlay">
@@ -245,7 +258,7 @@
                           <div class="imgContainer">
                                     <div>              
                                         <div class="imgButton">
-                                            <button type="button" class="btn btn-primary btn-lg btn-block">A. Kobe Doin Work</button>
+                                            <button type="button" class="btn btn-primary btn-lg btn-block">A. Kobe Doin' Work</button>
                                             <button type="button" class="btn btn-secondary btn-lg btn-block">B. The Last Dance</button>
                                             <button type="button" class="btn btn-secondary btn-lg btn-block">C. Dear Basketball</button>
                                             <button type="button" class="btn btn-secondary btn-lg btn-block">D. The Wizinard Series</button>
@@ -261,8 +274,9 @@
     
     </section> 
     <br>   
-        <h2>QUESTION 6</h2>
-            <section>
+        
+            <section class="qDiv" id="q6">
+                <h2>QUESTION 6</h2>
                 <div class="container">
                     <img src="https://www.ocregister.com/wp-content/uploads/migration/obs/obsuqk-b88775063z.120160812065357000gr8i6r9s.10.jpg" alt height="100" width="100" padding="30px" alt="Kobe Olympics" class="image">
                         <div class="overlay">
@@ -290,8 +304,9 @@
 
 </section> 
 <br>   
-        <h2>QUESTION 7</h2>
-            <section>
+        
+            <section class="qDiv" id="q7">
+                <h2>QUESTION 7</h2>
             <div class="container">
                 <img src="https://images-na.ssl-images-amazon.com/images/I/81xtfhqYZxL._AC_SL1500_.jpg" alt height="100" width="100" padding="30px" alt="Kobe Championship" class="image">
                     <div class="overlay">
@@ -319,8 +334,9 @@
 
 </section> 
 <br>   
-        <h2>QUESTION 8</h2>
-        <section>
+        
+        <section class="qDiv" id="q8">
+            <h2>QUESTION 8</h2>
             <div class="container">
                 <img src="https://i.pinimg.com/564x/20/d0/3d/20d03dbbb1e49dec4e98bb4bee86b0af.jpg" alt height="500" width="500" padding="500px" margin="500" alt="Kobe tunnel" class="image">
                     <div class="overlay">
@@ -349,7 +365,12 @@
         <div>
                 <button type="button" class="btn btn-primary btn-lg btn-block">Submit Quiz</button>
         </div> 
-
+    <nav class="navbar fixed-bottom" style="background-color:purple!important;color:gold">
+        <a class="navbar-brand" href="#" style="color: gold;">Timer</a>
+        <div id="timer">24</div>
+    
+    </nav>
+     <script src="index.js"></script>
 </body>
 
 </html>
