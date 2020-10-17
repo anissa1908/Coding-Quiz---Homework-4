@@ -30,7 +30,7 @@ https://anissa1908.github.io/Do-You-Have-Mamba-Mentality-/
     </ul>
 
 ## Image of Deployed App
-![image](client/src/assets/Kobe 24 8 revised.jpg)
+<img src= "https://www.hoopswallpapers.com/wallpapers/2017/kobe-jersey-retirement-wallpaper-4k.jpg" alt="Kobe 8 24 image">
 
 
 
