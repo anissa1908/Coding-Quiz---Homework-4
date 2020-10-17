@@ -30,7 +30,7 @@ https://anissa1908.github.io/Do-You-Have-Mamba-Mentality-/
     </ul>
 
 ## Image of Deployed App
-![image](KOBE PICS\Assets\Kobe quiz.png)
+![](Client\src\assets\Kobe 24 8_revised.jpg)
 
 
 
