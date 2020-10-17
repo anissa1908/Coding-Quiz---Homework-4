@@ -1,12 +1,12 @@
 # Do You Have Mamba Mentality?
-![insert image tag here]
+![image](https://img.shields.io/badge/license-MIT%20License-green)
 
 ## Concept 
 A time-coded quiz was developed using a combination of multiple-choice questions. The app is run in the browser and features dynamically updated code. For this particular assignment, I chose to pick a subject that focused on one of my passions -- The Los Angeles Lakers and the late Kobe Bryant's accomplishments that he brought to the NBA and entertainment world. 
 
 ## Usage
 
-The user is posed with 8 individual multipe-choice questions about Kobe's career and successes outside of the NBA. The user must answer each question within 24 seconds do demonstrate whether they have "Mamba Mentality". 
+The user is posed with 8 individual multipe-choice questions about Kobe's career and successes outside of the NBA. The user must answer each question within 24 seconds do demonstrate whether they have "Mamba Mentality". Depending upon if the user gets the answer correct or not, they will receive one of two messages. 
 
 ## Challenges
 
@@ -18,6 +18,8 @@ What I enjoyed the most in working on this project was choosing relevant images 
 
 ## Deployed App
 
+https://anissa1908.github.io/Do-You-Have-Mamba-Mentality-/
+
 ## Technologies Used
 <p> The following technologies were used to create a stylish, mobile responsive app.
     <ul>
@@ -26,6 +28,10 @@ What I enjoyed the most in working on this project was choosing relevant images 
     <p>JavaScript</p>
     <p>Bootstrap</p>
     </ul>
+
+## Image of Deployed App
+![image](client/KobePics/Kobe 24 8_revised.jpg)
+
 
 
 
