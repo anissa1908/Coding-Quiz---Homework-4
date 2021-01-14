@@ -6,7 +6,7 @@ A time-coded quiz was developed using a combination of multiple-choice questions
 
 ## Usage
 
-The user is posed with 8 individual multipe-choice questions about Kobe's career and successes outside of the NBA. The user must answer each question within 24 seconds do demonstrate whether they have "Mamba Mentality". Depending upon if the user gets the answer correct or not, they will receive one of two messages. 
+The user is posed with 8 individual multiple-choice questions about Kobe's career and successes outside of the NBA. The user must answer each question within 24 seconds to demonstrate whether they have "Mamba Mentality". Depending upon if the user gets the answer correct or not, they will receive one of two messages. 
 
 ## Challenges
 
@@ -14,7 +14,7 @@ When initially completing this assignment, coding the 24 second clock continues 
 
 ## Successes
 
-What I enjoyed the most in working on this project was choosing relevant images and engaging and dynamic features to keep the user engaged in the game. Bootstrap and dynamic CSS styling helped me to achieve a polished user interface that visitors to this site would enjoy. 
+What I enjoyed the most in working on this project was choosing relevant images and engaging and dynamic features to keep the user engaged in the game. Bootstrap and dynamic CSS styling helped me to achieve a polished user interface that visitors to this site can enjoy. 
 
 ## Deployed App
 
@@ -30,7 +30,9 @@ https://anissa1908.github.io/Do-You-Have-Mamba-Mentality-/
     </ul>
 
 ## Image of Deployed App
-![image](KOBE PICS\Assets\Kobe quiz.png)
+<img src="Client\src\assets\Kobe 24 8_revised.jpg">
+
+
 
 
 
