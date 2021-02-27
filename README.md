@@ -30,7 +30,8 @@ https://anissa1908.github.io/Do-You-Have-Mamba-Mentality-/
     </ul>
 
 ## Image of Deployed App
-<img src="Client\src\assets\Kobe 24 8_revised.jpg">
+<img src="src\assets\Kobe 24 8_revised.jpg">
+
 
 
 
