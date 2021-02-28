@@ -1,6 +1,6 @@
 var startBtn = document.getElementById("start");
 var timer = document.getElementById("timer");
-var time = 224;
+var time = 24;
 var currentQuestion = 1;
 var counter;
 var correct = 0;
@@ -8,7 +8,7 @@ var highscores = JSON.parse(localStorage.getItem("highscore")) || [];
 
 startBtn.addEventListener("click", startQuiz);
 function startQuiz(){
-    counter = setInterval(count,10);
+    counter = setInterval(count,1000);
     document.getElementById("q1").style.display = "block";
 }
 
